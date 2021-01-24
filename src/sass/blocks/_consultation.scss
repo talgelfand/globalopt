@@ -1,0 +1,55 @@
+.consultation {
+    padding-top: 56px;
+    padding-bottom: 58px;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        hr {
+            margin-top: 71px;
+            width: 565px;
+            height: 0.5px;
+            border: none;
+            background-color: #898989;
+        }
+        img {
+            margin: 20px 7px 0 7px;
+        }
+        &_under {
+            display: flex;
+            flex-direction: row;
+            margin-top: 53px;
+            hr {
+                transform: translateY(-193px);
+                width: 560px;
+                height: 0.5px;
+                border: none;
+                background-color: #898989;
+                z-index: -1;
+            }
+        }    
+    }
+    &__subtitle {
+        font-size: 28px;
+        font-weight: 500;
+        text-align: center;
+        color: #3a3a3a;
+    }
+    .hr__left {
+        position: absolute;
+        margin-top: 71px;
+        margin-right: 162px;
+        border: none;
+        background-color: #898989;
+        height: 166px;
+        width: 0.5px;
+    }
+    .hr__right {
+        position: absolute;
+        margin-top: 71px;
+        margin-left: 950px;
+        border: none;
+        background-color: #898989;
+        height: 166px;
+        width: 0.5px;
+    }
+}

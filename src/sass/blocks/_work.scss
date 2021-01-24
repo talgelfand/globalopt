@@ -1,0 +1,44 @@
+.work {
+    padding-top: 51px;
+    padding-bottom: 57px;
+    hr {
+        width: 148px;
+        height: 1px;
+        margin-top: 20px;
+        background-color: $main-color;
+        border: none;
+    }
+    &__text {
+        margin-top: 17px;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 1.14;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 57px;
+    }
+    &__item {
+        width: 360px;
+        margin-right: 30px;
+    }
+    &__subtitle {
+        margin-top: 28px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.57;
+        text-align: center;
+        color: $main-color;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        text-align: center;
+        color: #3a3a3a;
+    }
+}

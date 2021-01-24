@@ -1,0 +1,61 @@
+.carousel {
+    padding: 51px 0 65px 0;
+    hr {
+        width: 148px;
+        height: 1px;
+        margin-top: 20px;
+        background-color: $main-color;
+        border: none;
+    }
+    &__text {
+        margin-top: 17px;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 1.14;
+        text-align: center;
+        color: #2e2e2e;
+    }
+    &__inner {
+        position: relative;
+        width: 601px;
+        margin: 0 auto;
+        img {
+            width: 114px;
+            height: 114px;
+            border-radius: 100%;
+        }
+    }
+    &__subtitle {
+        margin-top: 19px;
+        font-size: 18px;
+        font-weight: 700;
+        color: #3a3a3a;
+        text-align: center;
+    }
+    &__descr {
+        margin-top: 19px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        color: #3a3a3a;
+        text-align: center;
+    }
+
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -38px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 14px;
+            height: 47px;
+        }
+    }
+
+    .slick-next {
+        right: -38px;
+        left: auto;
+    }
+}
